@@ -3,12 +3,10 @@
  */
  module.exports = {
   content: [
-    "./node_modules/flowbite-react/**/*.js",
+    "./node_modules/flowbite-react/**/*.{ts,tsx,js}",
     "./src/**/*.{ts,tsx}",
     "./public/**/*.html",
   ],
-  plugins: [
-
-  ],
+  plugins: [require("daisyui")],
   theme: {},
 };

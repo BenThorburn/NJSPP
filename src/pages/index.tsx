@@ -1,21 +1,12 @@
 import type { NextPage } from 'next'
-import styles from '../styles/Home.module.css'
-import SalesCard from '../components/Card'
-import Grid from '../components/Grid'
-import Container from '../components/Container'
-import Head from 'next/head'
+//import styles from '../styles/home.module.css'
+//import Card from '../components/card'
+//import Grid from '../components/Grid'
 
-const Home = () => {
+const Home: NextPage = () => {
   return (
-    <main>
-      <Container>
-        <Head>
-        </Head>
-        <Grid>
-          <SalesCard />
-        </Grid>
-      </Container>
-    </main>
+    <>
+    </>
   )
 }
 
